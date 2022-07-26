@@ -110,8 +110,8 @@ img{
     text-transform: uppercase;
     padding: 1rem 3rem;
     margin-bottom: 2rem;
-    border: none;
 }
+
 .button:hover {
     cursor: pointer;
 }
@@ -128,7 +128,7 @@ img{
 .secondary-button {
    background-color: var(--primary); 
 }
-.courses {.field__field--textarea 
+.courses {
     list-style: none;
 }
 .widget-course {
