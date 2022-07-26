@@ -110,6 +110,10 @@ img{
     text-transform: uppercase;
     padding: 1rem 3rem;
     margin-bottom: 2rem;
+    border: none;
+}
+.button:hover {
+    cursor: pointer;
 }
 .primary-button {
    background-color: var(--dark);
@@ -124,7 +128,7 @@ img{
 .secondary-button {
    background-color: var(--primary); 
 }
-.courses {
+.courses {.field__field--textarea 
     list-style: none;
 }
 .widget-course {
@@ -159,6 +163,43 @@ img{
 }
 .course:last-of-type {
     border-bottom: none;
+}
+
+.entry__img {
+    width: 100%;
+}
+
+.bg-contact {
+    background-image: url(../assets/img/contacto.jpg);
+    height: 40rem;
+    background-size: cover;
+}
+/*FORM*/
+.form {
+    background-color: var(--light);
+    margin: -5rem auto 0 auto;
+    width: 95%;
+    padding: 5rem;
+}
+
+.field {
+    display: flex;
+    margin-bottom: 2rem;
+}
+
+.field__label {
+ flex: 0 0 9rem;
+ text-align: right;
+ padding-right: 2rem;
+}
+
+.field__field {
+    flex: 1;
+    border: 1px solid #e1e1e1;
+}
+
+.field__field--textarea {
+    height: 20rem;
 }
 
 /* FOOTER */
